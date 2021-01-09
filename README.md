@@ -6,7 +6,8 @@
 
 constructors:
 	
-	Calculator(String calculation);
+```Calculator(String calculation);```
+
 calculation is the actual calculation you want to calculate.
 
 public methods:
@@ -25,14 +26,15 @@ and nothing printed during calculation.
 	
 public variables:
 
-	```boolean IS_SOLVABLE;```
+```boolean IS_SOLVABLE;```
+
 if solvable, returns true; otherwise false.
 
 
 ***BigCalculator:***
 constructors:
 
-	```BigCalculator(String calculation);```
+```BigCalculator(String calculation);```
 	
 calculation is the actual calculation you want to calculate.
 
