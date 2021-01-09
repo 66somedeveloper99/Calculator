@@ -83,3 +83,11 @@ double r = cal.calculate();
 
 BigCalculate is the same, only that it returns a BigDecimal instead of a double. so you can do the same thing with BigCalculate with only difference being to change the ```double r``` to ```BigDecimal r```.
 
+
+***EXAMPLE:***
+	Scanner sc = new Scanner(System.in);
+	System.out.print("write equation:\t");
+	BigCalculation cal = new BigCalculation(sc.nextline());
+	
+	if(cal.IS_SOLVABLE) System.println("=\t"+cal.calculate);
+	else System.println("ERROR WITH INPUT");
