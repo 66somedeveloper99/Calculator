@@ -3,7 +3,9 @@
 **api** :
 
 Calculator:
+
 constructors:
+	
 	```Calculator(String calculation);```
 	calculation is the actual calculation you want to calculate.
 public methods:
