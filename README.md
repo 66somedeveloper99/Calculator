@@ -10,54 +10,65 @@ constructors:
 calculation is the actual calculation you want to calculate.
 
 public methods:
-	double calculate(int debug_level)
+
+```double calculate(int debug_level)```
+
 returns the calculated value in double.
 debug_level = 0: nothing printed during calculation.
 debug_level = 1: only simplifications are printed.
 debug_level = 2: all behind the scenes are printed.
 
-	```double calculate()```
-	returns the calculated value in double.
-	and nothing printed during calculation.
+```double calculate()```
+
+returns the calculated value in double.
+and nothing printed during calculation.
 	
 public variables:
+
 	```boolean IS_SOLVABLE;```
-	if solvable, returns true; otherwise false.
+if solvable, returns true; otherwise false.
 
 
-BigCalculator:
+***BigCalculator:***
 constructors:
+
 	```BigCalculator(String calculation);```
-	calculation is the actual calculation you want to calculate.
+	
+calculation is the actual calculation you want to calculate.
 
 public methods:
-	```BigDecimal calculate(int debug_level)```
-	returns the calculated value in BigDecimal.
-	debug_level = 0: nothing printed during calculation.
-	debug_level = 1: only simplifications are printed.
-	debug_level = 2: all behind the scenes are printed.
 
-	```BigDecimal calculate()```
-	returns the calculated value in BigDecimal.
-	and nothing printed during calculation.
+```BigDecimal calculate(int debug_level)```
+	
+returns the calculated value in BigDecimal.
+debug_level = 0: nothing printed during calculation.
+debug_level = 1: only simplifications are printed.
+debug_level = 2: all behind the scenes are printed.
+
+```BigDecimal calculate()```
+	
+returns the calculated value in BigDecimal.
+and nothing printed during calculation.
 
 public variables:
-	```boolean IS_SOLVABLE;```
-	if solvable, returns true; otherwise false.
+
+```boolean IS_SOLVABLE;```
+
+if solvable, returns true; otherwise false.
 
 
 **usage** :
 
 write
-```
-Calculator cal = new Calculator("12+3/2");
-```
+
+```Calculator cal = new Calculator("12+3/2");```
+
 to declare a calculation variable. (you can choose your own equation instead of "12+3/2" ).
 
 to check whether it's solvable or not:
-```
-if(cal.IS_SOLVABLE)
-```
+
+```if(cal.IS_SOLVABLE)```
+
 
 to write the equation:
 ```
