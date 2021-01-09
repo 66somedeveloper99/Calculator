@@ -2,18 +2,19 @@
 
 **api** :
 
-Calculator:
+***Calculator:***
 
 constructors:
 	
-	```Calculator(String calculation);```
-	calculation is the actual calculation you want to calculate.
+	Calculator(String calculation);
+calculation is the actual calculation you want to calculate.
+
 public methods:
-	```double calculate(int debug_level)```
-	returns the calculated value in double.
-	debug_level = 0: nothing printed during calculation.
-	debug_level = 1: only simplifications are printed.
-	debug_level = 2: all behind the scenes are printed.
+	double calculate(int debug_level)
+returns the calculated value in double.
+debug_level = 0: nothing printed during calculation.
+debug_level = 1: only simplifications are printed.
+debug_level = 2: all behind the scenes are printed.
 
 	```double calculate()```
 	returns the calculated value in double.
