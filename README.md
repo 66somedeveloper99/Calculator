@@ -85,6 +85,7 @@ BigCalculate is the same, only that it returns a BigDecimal instead of a double.
 
 
 ***EXAMPLE:***
+
 	Scanner sc = new Scanner(System.in);
 	System.out.print("write equation:\t");
 	BigCalculation cal = new BigCalculation(sc.nextline());
